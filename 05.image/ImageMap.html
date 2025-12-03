@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Map - Hand Cursor Test</title>
+  </head>
+  <body>
+    <h2>Image area and map</h2>
+    <hr />
+
+    <img
+      src="../resources/image5.jpg"
+      alt="cookies on coffee cups on christmas"
+      width="400"
+      height="500"
+      usemap="#coffee_cookies"
+      style="border: 2px solid #ccc"
+    />
+
+    <!-- FIXED: no # in name -->
+    <map name="coffee_cookies">
+      <area
+        shape="rect"
+        coords="140,100,250,350"
+        href="https://theworlds100bestcoffeeshops.com/locales/prevail-coffee/"
+        target="_blank"
+        alt="Click me"
+        title="Prevail Coffee (test hotspot)"
+        style="cursor: pointer"
+      />
+    </map>
+  </body>
+</html>
