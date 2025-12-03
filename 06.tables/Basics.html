@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Student Marks Table - Class 10A</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 40px;
+        background: #f4f4f4;
+      }
+      table {
+        width: 100%;
+        max-width: 900px;
+        margin: 30px auto;
+        border-collapse: collapse;
+        background: white;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      caption {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 15px;
+        background: #2c3e50;
+        color: white;
+        caption-side: top;
+      }
+      th,
+      td {
+        padding: 14px 12px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+      }
+      th {
+        background-color: #3498db;
+        color: white;
+        font-weight: bold;
+      }
+      tr:hover {
+        background-color: #f1f8ff;
+      }
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+      .total {
+        font-weight: bold;
+        background-color: #ecf0f1 !important;
+      }
+      .percentage {
+        font-weight: bold;
+        font-size: 1.1em;
+        color: #27ae60;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Final Exam Results – Class 10A (2025)
+      </caption>
+
+      <thead>
+        <tr>
+          <th scope="col" rowspan="2">Roll No.</th>
+          <th scope="col" rowspan="2">Student Name</th>
+          <th scope="col" colspan="4">Marks (Out of 100)</th>
+          <th scope="col" rowspan="2">Total<br />(400)</th>
+          <th scope="col" rowspan="2">Percentage</th>
+        </tr>
+        <tr>
+          <th scope="col">Math</th>
+          <th scope="col">Physics</th>
+          <th scope="col">Chemistry</th>
+          <th scope="col">English</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>1</td>
+          <th scope="row">Aarav Sharma</th>
+          <td>98</td>
+          <td>95</td>
+          <td>92</td>
+          <td>96</td>
+          <td class="total">381</td>
+          <td class="percentage">95.25%</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <th scope="row">Diya Patel</th>
+          <td>94</td>
+          <td>97</td>
+          <td>99</td>
+          <td>93</td>
+          <td class="total">383</td>
+          <td class="percentage">95.75%</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <th scope="row">Vihaan Singh</th>
+          <td>88</td>
+          <td>91</td>
+          <td>87</td>
+          <td>94</td>
+          <td class="total">360</td>
+          <td class="percentage">90.00%</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <th scope="row">Ananya Gupta</th>
+          <td>92</td>
+          <td>89</td>
+          <td>95</td>
+          <td>91</td>
+          <td class="total">367</td>
+          <td class="percentage">91.75%</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <th scope="row">Ishaan Kumar</th>
+          <td>85</td>
+          <td>88</td>
+          <td>84</td>
+          <td>90</td>
+          <td class="total">347</td>
+          <td class="percentage">86.75%</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <th scope="row">Saanvi Mehta</th>
+          <td>99</td>
+          <td>96</td>
+          <td>98</td>
+          <td>95</td>
+          <td class="total">388</td>
+          <td class="percentage">97.00%</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <th scope="row">Arjun Reddy</th>
+          <td>78</td>
+          <td>82</td>
+          <td>80</td>
+          <td>85</td>
+          <td class="total">325</td>
+          <td class="percentage">81.25%</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <th scope="row">Myra Joshi</th>
+          <td>93</td>
+          <td>90</td>
+          <td>91</td>
+          <td>97</td>
+          <td class="total">371</td>
+          <td class="percentage">92.75%</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <th scope="row">Rohan Desai</th>
+          <td>87</td>
+          <td>85</td>
+          <td>89</td>
+          <td>88</td>
+          <td class="total">349</td>
+          <td class="percentage">87.25%</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <th scope="row">Kiara Nair</th>
+          <td>91</td>
+          <td>94</td>
+          <td>93</td>
+          <td>92</td>
+          <td class="total">370</td>
+          <td class="percentage">92.50%</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th colspan="2">Class Average</th>
+          <td>90.5</td>
+          <td>90.7</td>
+          <td>90.8</td>
+          <td>92.1</td>
+          <td class="total">364.1</td>
+          <td class="percentage">91.03%</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
